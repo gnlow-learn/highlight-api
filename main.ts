@@ -29,6 +29,8 @@ const parse = () => {
 
 parse()
 
+$p.addEventListener("input", parse)
+
 document.styleSheets[0].insertRule(`
     ::highlight(hi1) {
         color: #a55;
